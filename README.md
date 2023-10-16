@@ -1,6 +1,7 @@
 # multitenant
-Sample code to connect multiple schemas based on tenant login
+Sample code to connect multiple schemas based on tenant login.
 
+Steps to test the code:
 1. execute the sql - schema.sql ( available under resources folder) 
 2. Change the DB setting based on your DB (tenant_1.properties, tenant_2.properties)
 3. Run the code : mvn spring-boot:run
